@@ -1,0 +1,35 @@
+{
+  "name": "react-component-context",
+  "version": "1.0.0",
+  "description": "Component context pattern (lift context up)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doasync/react-component-context.git"
+  },
+  "keywords": [
+    "react",
+    "context",
+    "state",
+    "lift",
+    "up",
+    "consumer",
+    "provider",
+    "pattern",
+    "effector"
+  ],
+  "author": "doasync",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doasync/react-component-context/issues"
+  },
+  "homepage": "https://github.com/doasync/react-component-context#readme",
+  "dependencies": {
+    "invariant": "^2.2.4",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2"
+  }
+}
