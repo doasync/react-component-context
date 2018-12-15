@@ -1,5 +1,7 @@
-import React, { useContext, useState, useEffect, useMemo } from "react";
-import invariant from "invariant";
+
+const React = require('react');
+const { useContext, useState, useEffect, useMemo } = React;
+const invariant = require('invariant');
 
 function getDisplayName(WrappedComponent) {
   return WrappedComponent.displayName || WrappedComponent.name || "Component";
@@ -42,4 +44,9 @@ export const useComponentContext = (Component, Provider = {}) => {
 
   // eslint-disable-next-line react-hooks/rules-of-hooks
   return useContext(Provider.Context || Context) || useMemo(createContext);
+};
+
+module.exports = {
+  createComponentProvider,
+  useComponentContext
 };
