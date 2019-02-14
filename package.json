@@ -15,8 +15,7 @@
     "up",
     "consumer",
     "provider",
-    "pattern",
-    "effector"
+    "pattern"
   ],
   "author": "doasync",
   "license": "MIT",
@@ -26,7 +25,7 @@
   "homepage": "https://github.com/doasync/react-component-context#readme",
   "dependencies": {
     "invariant": "^2.2.4",
-    "react": "^16.7.0-alpha.2",
-    "react-dom": "^16.7.0-alpha.2"
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
   }
 }
