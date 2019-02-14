@@ -1,6 +1,6 @@
 {
   "name": "react-component-context",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Component context pattern (lift context up)",
   "main": "index.js",
   "repository": {
